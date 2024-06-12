@@ -140,6 +140,35 @@ body{
 }
 .experience-container{
     background-image: url(./images/experience\ container\ bg.png);
-    padding: 100px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experience{
+    padding: 100px;
+}
+.desig-contain{
+    padding-right: 100px;
+}
+
+.desigs{
+    border-bottom: solid 1px #bfbfbf;
+}
+.other{
+    display: flex;
+}
+
+
+.awards{
+    padding: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+.award{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 25px;
 }
